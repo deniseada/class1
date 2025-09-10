@@ -1,0 +1,9 @@
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(102, 143, 143);
+  color: white;
+}
+h1 {
+  color: rgb(2, 63, 63);
+  text-align: center;
+}
