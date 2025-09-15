@@ -2,20 +2,113 @@ html {
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color: rgb(102, 143, 143);
   color: rgb(192, 210, 210);
-  margin: 40px;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-  color: rgb(192, 210, 210);
+  color: #fff;
   text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 0 2px 8px #00000040;
+  background: #0b4370;
+  margin-top: 0px;
+  padding: 0.5em 0;
 }
 
-button {
-  background-color: rgb(209, 210, 212);
+.book-title {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  background: #65626280;
+  text-align: center;
+  color: #fff;
 }
 
-.entry {
-  margin: 1em auto;
-  width: 50%;
+.book-authors {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  background: #31303080;
+}
+
+.newBook {
+  position: relative;
+  width: 200px;
+  height: 335px;
+  box-sizing: border-box;
+  padding: 1em;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.newBook:hover {
+  background-color: rgb(74, 188, 188);
+  color: black;
+}
+
+.book {
+  position: relative;
+  width: 200px;
+  height: 300px;
   padding: 1em;
   border: 2px solid;
+  background-color: rgb(60, 104, 115);
+}
+
+.book-image {
+  width: 100%;
+  object-fit: cover;
+  box-sizing: inherit;
+  display: block;
+}
+
+.bookContainers {
+  margin: 3em;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.book-link {
+  display: block;
+  height: 2rem;
+  width: 100%;
+  background: #344769;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-decoration: none;
+  color: #f1f1f1;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 0.25rem;
+}
+.book-link:hover {
+  background-color: rgb(139, 209, 209);
+  color: black;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #262b31;
+  color: white;
+  text-align: center;
+  padding: 25px;
 }
