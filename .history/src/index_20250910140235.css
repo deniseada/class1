@@ -1,0 +1,14 @@
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(102, 143, 143);
+  color: rgb(192, 210, 210);
+  margin: 40px;
+}
+h1 {
+  color: rgb(192, 210, 210);
+  text-align: center;
+}
+
+button {
+  background-color: rgb(209, 210, 212);
+}
